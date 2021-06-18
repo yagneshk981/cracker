@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62,5%;
+    font-family: 'Nova Square', cursive;
+
+   
+}
+
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.banner .good {
+    position: relative;
+    z-index: 1;
+    max-width: 1000;
+    font-size: 5.4rem;
+    color: red;
+    margin-bottom: 5rem;
+    align-items: center;
+    padding: 20px , 100%;
+}
+
+.good p {
+    text-align: center;
+    padding: 24px, 200%;
+}
+
+.hero-btn {
+    padding: 52px 600px;
+    font-size: 30px;
+position: relative;
+}
+
+.mice video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    
+}
+
+.mice .bad{
+    position: relative;
+    z-index: 1;
+    max-width: 1000;
+    font-size: 5.4rem;
+    color: red;
+    margin-bottom: 5rem;
+    align-items: center;
+    padding: 20px , 100%;
+}
+
+.mice p{
+    text-align: center;
+    padding: 24px, 200%;
+}
